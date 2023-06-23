@@ -4,9 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebPack-Linters-Configurations</title>
+    <title>Leaderboard</title>
   </head>
   <body>
-    <h1>WebPack-Linters-Configurations</h1>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <section id="scores">
+      <div class="leaderboard-container">
+        <div class="recent-scores">
+          <div class="refresh-container">
+            <h3>Recent scores</h3>
+            <button id="refresh-btn">Refresh</button>
+          </div>
+          <div class="scores-container">
+            <table id="score-info">
+            </table>
+          </div>
+        </div>
+        <div class="add-score">
+          <div>
+            <h3>Add your score</h3>
+          </div>
+          <div class="form-container">
+            <form action="" id="form">
+              <input type="text" placeholder="Your name" id="name">
+              <input type="text" placeholder="Your score" id="score">
+              <button type="submit" id="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

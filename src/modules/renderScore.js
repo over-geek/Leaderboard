@@ -1,18 +1,10 @@
-const scoreArray = [
-  { name: 100 },
-  { name: 50 },
-  { name: 78 },
-  { name: 125 },
-  { name: 77 },
-  { name: 42 },
-];
-
-const renderScore = () => {
+const renderScore = async (scores) => {
   const scoreTable = document.getElementById('score-info');
-  scoreArray.forEach(({ name }) => {
+  scoreTable.innerHTML = '';
+  scores.forEach(({ user, score }) => {
     scoreTable.innerHTML += `
       <tr>
-        <td>Name: ${name}</td>
+        <td>${user}: ${score}</td>
       </tr>
     `;
   });

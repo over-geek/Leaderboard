@@ -90,6 +90,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Webpack to bundle Javascript]**
+- **[Send and Receive data with API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +153,7 @@ Open liveserver in VS Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Send and receive data from API**
+- [ ] **Add Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

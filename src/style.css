@@ -39,6 +39,15 @@ ul :nth-child(odd){
   background-color: #f2f2f2;
 }
 
+#score-info li {
+  padding: 8px;
+}
+
+#score-info li:hover {
+  background-color: #e4e4e4;
+  cursor: pointer;
+}
+
 .form-container {
   width: 60%;
   padding-top: 8px;

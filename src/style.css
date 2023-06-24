@@ -35,7 +35,7 @@ header {
   list-style-type: none;
 }
 
-ul :nth-child(odd){
+ul :nth-child(odd) {
   background-color: #f2f2f2;
 }
 
@@ -73,11 +73,12 @@ ul :nth-child(odd){
   font-weight: 700;
   background-color: transparent;
 }
- #refresh-btn:hover,
- #submit-btn:hover {
+
+#refresh-btn:hover,
+#submit-btn:hover {
   background-color: rgb(92, 148, 212);
   color: #fff;
- }
+}
 
 /* Media Queries */
 @media (max-width: 500px) {

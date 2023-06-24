@@ -3,9 +3,7 @@ const renderScore = async (scores) => {
   scoreTable.innerHTML = '';
   scores.forEach(({ user, score }) => {
     scoreTable.innerHTML += `
-      <tr>
-        <td>${user}: ${score}</td>
-      </tr>
+      <li>${user}: ${score}</li>
     `;
   });
 };
